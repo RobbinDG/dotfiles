@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Except
+!.gitignore
+
+# Exclude bashrc, its component directory, and all files in it.
+!.bashrc
+!.bashrc.d/  
+!.bashrc.d/*
