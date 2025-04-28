@@ -11,3 +11,4 @@ for FILE in ~/.bashrc.d/*; do
 done
 
 export PATH="$PATH:$HOME/.local/bin"
+. "$HOME/.cargo/env"
